@@ -12,7 +12,7 @@ auth = tweepy.OAuth1UserHandler(consumer_key, consumer_secret, access_token, acc
 api = tweepy.API(auth)
 
 # Specify the user or hashtag you want to retrieve tweets from
-user_or_hashtag = 'DeepFakeOne'
+user_or_hashtag = 'deepfake'
 
 # Specify the fields you want to retrieve
 fields = ['text', 'favorite_count', 'retweet_count', 'created_at']
